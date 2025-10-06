@@ -1,0 +1,31 @@
+export function Contact(){
+    const content = document.querySelector('#content');
+    content.innerHTML='';
+    const title = document.createElement('h1');
+    title.innerHTML='Big Burger - Contact Info';
+    const place = document.createElement('h3');
+    place.innerHTML='Location:';
+    const res = document.createElement('p');
+    res.innerHTML='Big Burger HQ <br> Bole Atlas, Addis Ababa, Ethiopia <br> Open daily: 10:00 AM - 11:00 PM';
+    const del =document.createElement('h3');
+    del.innerHTML='Delivery and Reservations';
+    const phone = document.createElement('p');
+    phone.innerHTML='• 	Phone: +251 91 234 5678 <br>	WhatsApp: +251 91 876 5432<br>	Email: order@bigburger.et';
+    const med = document.createElement('h3');
+    med.innerHTML='Social Media';
+    const info = document.createElement('p');
+    info.innerHTML='Instagram: @bigburger.et<br>	TikTok: @bigburger_addis<br></br>	YouTube: Big Burger Ethiopia <br> 	Facebook: facebook.com/bigburger.et <br> 	Twitter/X: @BigBurgerET';
+    const part = document.createElement('h3');
+    part.innerHTML='Delivery partners';
+    const list = document.createElement('p');
+    list.innerHTML=' Yegna Delivery <br> ZMall Express<br>  HelloCourier';
+    content.appendChild(title);
+    content.appendChild(place);
+    content.appendChild(res);
+    content.appendChild(del);
+    content.appendChild(phone);
+    content.appendChild(med);
+    content.appendChild(info);
+    content.appendChild(part);
+    content.appendChild(list);
+}
