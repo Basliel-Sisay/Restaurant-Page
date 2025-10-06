@@ -1,5 +1,14 @@
 import {homepage} from './home.js';
 import {Menu} from './menu.js';
-
+import{About} from './about.js';
+import{ Contact} from './contact.js';
+const homeButton = document.querySelector('#Home');
+const menuButton =document.querySelector('#Menu');
+const aboutButton = document.querySelector('#About');
+const contactButton = document.querySelector('#Contact');
+homeButton.addEventListener('click', homepage);
+menuButton.addEventListener('click', Menu);
+aboutButton.addEventListener('click', About);
+contactButton.addEventListener('click', Contact);
 homepage();
 console.log('testing');
