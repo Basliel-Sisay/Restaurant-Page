@@ -235,3 +235,31 @@ h1{
     font-size: 18px;
     margin: 0;
 }
+.hours-container{
+    background: rgb(255, 253, 250);
+    border-radius: 15px;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgb(255, 240, 230);
+    text-align: center;
+}
+.hours-title{
+    color: rgb(255, 107, 53);
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.hours-text{
+    color: rgb(60, 60, 60);
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-left: 4px solid rgb(44, 62, 80);
+}

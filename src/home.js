@@ -26,8 +26,19 @@ export function homepage(){
     featuresContainer.appendChild(feature);
     textContentContainer.appendChild(welcome);
     textContentContainer.appendChild(featuresContainer);
+    const hoursContainer = document.createElement('div');
+    hoursContainer.className = 'hours-container';
+    const hourTitle = document.createElement('h3');
+    hourTitle.className = 'hours-title';
+    hourTitle.textContent = 'Opening Hours';
+    const hours = document.createElement('p');
+    hours.className = 'hours-text';
+    hours.innerHTML = 'Sunday: 8am - 8pm<br>Monday: 6am - 6pm<br>Tuesday: 6am - 6pm<br>Wednesday: 6am - 6pm<br>Thursday: 6am - 10pm<br>Friday: 6am - 10pm<br>Saturday: 8am - 10pm';
+    hoursContainer.appendChild(hourTitle);
+    hoursContainer.appendChild(hours);
     homepageMain.appendChild(head);
     homepageMain.appendChild(image);
     homepageMain.appendChild(textContentContainer);
+    homepageMain.appendChild(hoursContainer); 
     content.appendChild(homepageMain);
 }
