@@ -8,10 +8,29 @@ const html = require('html-webpack-plugin');
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
+    devtool:'eval-source-map',   
+    devServer:{
+        watchFiles:['./src/temp.html'],
+    } ,
+    module:{
+        rules:[
+            {
+                test: /\.css$/i,
+                use:['style-loader', 'css-loader'],
+            },
+            {
+                test:/\.html$/i,
+                loader: 'html-loader',
+            },
+            {
+                test:/\.(png|jpeg|jpg\svg|gif)$/i,
+                type: 'asset/resource',
+            }
+        ],
+    },
     plugins:[
         new html ({
             template: './src/temp.html',
         }),
     ],
-
  }
