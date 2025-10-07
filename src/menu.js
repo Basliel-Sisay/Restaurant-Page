@@ -57,7 +57,7 @@ export function Menu(){
     const coke = document.createElement('img');
     coke.src='https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500';
     coke.alt='coke';
-    coke.width=170;
+    coke.width=200;
     const cokePrice = document.createElement('p');
     cokePrice.className='price';
     cokePrice.textContent = 'Coke - 59.99 Birr';

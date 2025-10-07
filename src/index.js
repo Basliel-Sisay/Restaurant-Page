@@ -2,6 +2,7 @@ import {homepage} from './home.js';
 import {Menu} from './menu.js';
 import{About} from './about.js';
 import{ Contact} from './contact.js';
+import './style.css';
 const homeButton = document.querySelector('#Home');
 const menuButton =document.querySelector('#Menu');
 const aboutButton = document.querySelector('#About');
