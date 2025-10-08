@@ -1,6 +1,7 @@
 export function Contact(){
     const content = document.querySelector('#content');
     content.innerHTML='';
+    content.className='contact-page';
     const title = document.createElement('h1');
     title.className = 'contact-title';
     title.innerHTML='Big Burger - Contact Info';
@@ -11,7 +12,7 @@ export function Contact(){
     const place = document.createElement('h3');
     place.innerHTML='Location:';
     const res = document.createElement('p');
-    res.innerHTML='Big Burger HQ <br> <br> Bole Atlas, Addis Ababa, Ethiopia <br> <br> Open daily: 10:00 AM - 11:00 PM';
+    res.innerHTML='Big Burger HQ <br> <br> Bole Atlas, Addis Ababa, Ethiopia <br> <br> Open on weekdays: 11:00 AM - 10:00 PM <br> Open on weekends: 10:00 AM - 11:00PM';
     placeColumn.appendChild(place);
     placeColumn.appendChild(res);
     const deliveryColumn = document.createElement('div');
