@@ -2,14 +2,14 @@
 
 
 A dynamic, JavaScript-driven restaurant website that showcases modular design, DOM manipulation, and Webpack integration.
-Built for practice, styled for performance, and deployed with love ❤️.
+Built for practice, styled for performance, and deployed with full functionality.
 
 🧭 Overview
 
 Big Burger is a fictional restaurant website that demonstrates modern front-end development principles using Webpack and vanilla JavaScript.
 The project’s goal is to build an entire multi-page experience without static HTML pages, relying instead on modular JS rendering.
 
-It’s elegant, responsive, and modular — a foundation for any dynamic single-page web app.
+It’s elegant, responsive, and modular - a foundation for any dynamic single-page web app.
 
 🗂️ Project Structure
 Restaurant-Page/
@@ -48,7 +48,7 @@ Restaurant-Page/
 
 🔹 JavaScript-Only Rendering — No static HTML! Every element is created and appended dynamically.
 
-🔹 Modular Architecture — Each page (Home, Menu, Contact) exists as its own JS module.
+🔹 Modular Architecture — Each page (Home, Menu, Contact, about) exists as its own JS module.
 
 🔹 Webpack Bundling — Handles CSS, JS, and image assets efficiently.
 
