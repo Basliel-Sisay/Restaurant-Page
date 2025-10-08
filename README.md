@@ -47,9 +47,13 @@ Restaurant-Page/
 ⚙️ Core Features
 
 🔹 JavaScript-Only Rendering — No static HTML! Every element is created and appended dynamically.
+
 🔹 Modular Architecture — Each page (Home, Menu, Contact) exists as its own JS module.
+
 🔹 Webpack Bundling — Handles CSS, JS, and image assets efficiently.
+
 🔹 Live Development Server — Real-time reloading during development via webpack-dev-server.
+
 🔹 GitHub Pages Deployment — Seamless one-command deployment using gh-pages.
 
 🧩 Setup & Usage
@@ -106,12 +110,19 @@ Through this project, you’ll gain practical experience in:
 
 🧰 Tech Stack
 Technology	Purpose
+
 🧱 HTML5 (template)	Structural layout
+
 🎨 CSS3	Styling and responsiveness
+
 ⚡ JavaScript (ES6)	Logic and interactivity
+
 🔧 Webpack	Bundling and build management
+
 📦 npm	Dependency management
+
 🌐 GitHub Pages	Hosting and deployment
+
 👨‍💻 Author
 
 👋 Basliel Sisay
@@ -125,11 +136,17 @@ Front-End Developer & Web Enthusiast passionate about modular design and clean c
 
 Deploy easily to GitHub Pages using:
 
+
 git branch gh-pages
+
 git checkout gh-pages && git merge main --no-edit
+
 npx webpack
+
 git add dist -f && git commit -m "Deployment commit"
+
 git subtree push --prefix dist origin gh-pages
+
 git checkout main
 
 
