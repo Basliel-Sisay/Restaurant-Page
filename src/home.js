@@ -1,10 +1,20 @@
+import logoImage from './image/logo.png';
 export function homepage(){
     const content = document.querySelector('#content');
     content.innerHTML = '';   
     const homepageMain = document.createElement('div');
     homepageMain.className = 'homepage-main'; 
+    const headerContainer = document.createElement('div');
+    headerContainer.className = 'homepage-header';
+    const logo = document.createElement('img');
+    logo.src = logoImage;
+    logo.alt = "Big Burger Logo";
+    logo.className = 'homepage-logo';
     const head = document.createElement('h1');
-    head.textContent = 'Big Burger';   
+    head.textContent = 'Big Burger';
+    homepageMain.appendChild(headerContainer);
+    headerContainer.appendChild(logo);
+    headerContainer.appendChild(head);  
     const image = document.createElement('img');
     image.src = "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg";
     image.alt = "A big tasty burger";
@@ -33,10 +43,9 @@ export function homepage(){
     hourTitle.textContent = 'Opening Hours';
     const hours = document.createElement('p');
     hours.className = 'hours-text';
-    hours.innerHTML = 'Sunday: 8am - 8pm<br>Monday: 6am - 6pm<br>Tuesday: 6am - 6pm<br>Wednesday: 6am - 6pm<br>Thursday: 6am - 10pm<br>Friday: 6am - 10pm<br>Saturday: 8am - 10pm';
+    hours.innerHTML = 'Sunday: 10am - 11pm<br>Monday: 11am - 10pm<br>Tuesday: 11am - 10pm<br>Wednesday: 11am - 10pm<br>Thursday: 11am - 10pm<br>Friday: 11am - 10pm<br>Saturday: 10am - 11pm';
     hoursContainer.appendChild(hourTitle);
     hoursContainer.appendChild(hours);
-    homepageMain.appendChild(head);
     homepageMain.appendChild(image);
     homepageMain.appendChild(textContentContainer);
     homepageMain.appendChild(hoursContainer); 
