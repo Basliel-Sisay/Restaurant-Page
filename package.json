@@ -4,10 +4,9 @@
   "description": "A functional restaurant page made using the concept of webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack server"
-
-  },
+     "build": "webpack",
+    "start": "webpack serve"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Basliel-Sisay/Restaurant-Page.git"
@@ -21,6 +20,7 @@
   "homepage": "https://github.com/Basliel-Sisay/Restaurant-Page#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.4",
     "style-loader": "^4.0.0",
