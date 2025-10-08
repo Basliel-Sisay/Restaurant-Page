@@ -36,8 +36,11 @@ Restaurant-Page/
 │   └── logo.png              ← restaurant logo
 
 └── dist/                     ← bundled output
+   
     ├── index.html
+   
     ├── main.js
+   
     └── assets/
 
 
