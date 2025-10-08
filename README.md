@@ -1,18 +1,20 @@
-🍔 Big Burger — Restaurant Page
+<h1>🍔 Big Burger - Restaurant Page</h1>
 
 
-A dynamic, JavaScript-driven restaurant website that showcases modular design, DOM manipulation, and Webpack integration.
+A dynamic, JavaScript driven restaurant website that showcases modular design, DOM manipulation, and Webpack integration.
 Built for practice, styled for performance, and deployed with full functionality.
 
-🧭 Overview
+<h2>🧭 Overview</h2>
 
 Big Burger is a fictional restaurant website that demonstrates modern front-end development principles using Webpack and vanilla JavaScript.
 The project’s goal is to build an entire multi-page experience without static HTML pages, relying instead on modular JS rendering.
 
 It’s elegant, responsive, and modular - a foundation for any dynamic single-page web app.
 
-🗂️ Project Structure
+<h2>🗂️ Project Structure</h2>
+
 Restaurant-Page/
+
 ├── .gitignore                ← ignores node_modules & dist
 
 ├── package.json              ← dependencies & scripts
@@ -44,19 +46,20 @@ Restaurant-Page/
     └── assets/
 
 
-⚙️ Core Features
+<h2>⚙️ Core Features</h2>
 
-🔹 JavaScript-Only Rendering — No static HTML! Every element is created and appended dynamically.
+🔹 JavaScript Only Rendering - No static HTML, Every element is created and appended dynamically.
 
-🔹 Modular Architecture — Each page (Home, Menu, Contact, about) exists as its own JS module.
+🔹 Modular Architecture - Each page (Home, Menu, Contact, about) exists as its own JS module.
 
-🔹 Webpack Bundling — Handles CSS, JS, and image assets efficiently.
+🔹 Webpack Bundling - Handles CSS, JS, and image assets efficiently.
 
-🔹 Live Development Server — Real-time reloading during development via webpack-dev-server.
+🔹 Live Development Server - Real time reloading during development via webpack-dev-server.
 
-🔹 GitHub Pages Deployment — Seamless one-command deployment using gh-pages.
+🔹 GitHub Pages Deployment - Seamless one command deployment using gh-pages.
 
-🧩 Setup & Usage
+<h2>🧩 Setup & Usage</h2>
+
 🔧 1. Clone the Repository
 git clone https://github.com/Basliel-Sisay/Restaurant-Page.git
 cd Restaurant-Page
@@ -73,17 +76,17 @@ Then visit: http://localhost:8080
 🏗️ 4. Build for Production
 npm run build
 
-🍴 About Big Burger
+<h3>🍴 About Big Burger</h3>
 
 Welcome to Big Burger, where every bite tells a story!
 We’re obsessed with crafting the juiciest, freshest, and most flavorful burgers in town — served in a fun, welcoming environment.
 
-🥩 Quality Promise
+<h3>🥩 Quality Promise</h3>
 
 We use 100% locally sourced ingredients, from grass-fed beef to hand-picked organic veggies.
 Our buns are baked fresh daily, and every sauce is made in-house for that authentic Big Burger taste.
 
-📞 Contact & Delivery
+<h3>📞 Contact & Delivery</h3>
 
 📍 Address: Bole Atlas, Addis Ababa, Ethiopia
 📱 Phone: +251 91 234 5678
@@ -94,7 +97,7 @@ Our buns are baked fresh daily, and every sauce is made in-house for that authen
 
 💬 Twitter/X: @BigBurgerET
 
-🧠 Learning Objectives
+<h2>🧠 Learning Objectives</h2>
 
 Through this project, you’ll gain practical experience in:
 
@@ -108,7 +111,7 @@ Through this project, you’ll gain practical experience in:
 
 🔸 Deploying static projects via GitHub Pages
 
-🧰 Tech Stack
+<h2>🧰 Tech Stack</h2>
 Technology	Purpose
 
 🧱 HTML5 (template)	Structural layout
@@ -123,16 +126,20 @@ Technology	Purpose
 
 🌐 GitHub Pages	Hosting and deployment
 
-👨‍💻 Author
+<h2>👨‍💻 Author</h2>
 
 👋 Basliel Sisay
 Front-End Developer & Web Enthusiast passionate about modular design and clean code.
 
-🌐 GitHub Profile
+<h2>🌐 GitHub Profile</h2>
 
-📧 basliel.ugr-3563-16@aau.edu.et
+Basliel-Sisay@github.com
 
-🏁 Deployment
+<h2>📧 Email</h2>
+
+basliel.ugr-3563-16@aau.edu.et
+
+<h2>🏁 Deployment</h2>
 
 Deploy easily to GitHub Pages using:
 
@@ -152,9 +159,9 @@ git checkout main
 
 Then set GitHub Pages Source Branch → gh-pages.
 
-Your live site will be available at:
+live site will be available at:
 🔗 https://basliel-sisay.github.io/Restaurant-Page/
 
-⭐ Acknowledgments
+<h2>⭐ Acknowledgments</h2>
 
 Special thanks to The Odin Project community for their guidance and motivation in mastering Webpack and modular JavaScript.
