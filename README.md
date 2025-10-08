@@ -14,20 +14,32 @@ It’s elegant, responsive, and modular — a foundation for any dynamic single-
 🗂️ Project Structure
 Restaurant-Page/
 ├── .gitignore                ← ignores node_modules & dist
+
 ├── package.json              ← dependencies & scripts
+
 ├── webpack.config.js         ← Webpack setup
+
 ├── src/
+
 │   ├── index.js              ← main logic & tab switching
+
 │   ├── home.js               ← homepage module
+
 │   ├── menu.js               ← menu module
+
 │   ├── contact.js            ← contact module
+
 │   ├── styles.css            ← styles
+
 │   ├── template.html         ← base HTML structure
+
 │   └── logo.png              ← restaurant logo
+
 └── dist/                     ← bundled output
     ├── index.html
     ├── main.js
     └── assets/
+
 
 ⚙️ Core Features
 
