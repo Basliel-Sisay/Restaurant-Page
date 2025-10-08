@@ -23,7 +23,7 @@ const html = require('html-webpack-plugin');
                 loader: 'html-loader',
             },
             {
-                test:/\.(png|jpeg|jpg\svg|gif)$/i,
+                test:/\.(png|jpeg|jpg|svg|gif)$/i,
                 type: 'asset/resource',
             }
         ],
@@ -31,6 +31,7 @@ const html = require('html-webpack-plugin');
     plugins:[
         new html ({
             template: './src/temp.html',
+            filename: 'index.html',
         }),
     ],
  }
