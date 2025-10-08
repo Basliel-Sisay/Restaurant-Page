@@ -89,10 +89,13 @@ Our buns are baked fresh daily, and every sauce is made in-house for that authen
 <h3>📞 Contact & Delivery</h3>
 
 📍 Address: Bole Atlas, Addis Ababa, Ethiopia
+
 📱 Phone: +251 91 234 5678
+
 📧 Email: contact@bigburger.com
 
 🚗 Delivery Hotline: +251-911-777-888
+
 📸 Instagram: @bigburger.et
 
 💬 Twitter/X: @BigBurgerET
